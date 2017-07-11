@@ -1,0 +1,15 @@
+{"format":"Transformational debugger info","version":1,
+"info":{"name":"StoreData_Trial1","description":""},
+"variables":{
+"x":{"comment":"","kind":"state","type":"Real","unit":"","displayUnit":"","source":{"info":{"file":"C:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/SimpleStoring/StoreData_Trial1.mo","lineStart":13,"lineEnd":13,"colStart":2,"colEnd":35},"within":["Real"],"typeLst":["StoreData_Trial1","Real"]}},
+"der(x)":{"comment":"","kind":"derivative","type":"Real","unit":"","displayUnit":"","source":{"info":{"file":"C:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/SimpleStoring/StoreData_Trial1.mo","lineStart":13,"lineEnd":13,"colStart":2,"colEnd":35},"within":["Real"],"typeLst":["StoreData_Trial1","Real"]}}
+},
+"equations":[{"eqIndex":0,"tag":"dummy"},
+{"eqIndex":1,"section":"initial","tag":"assign","defines":["x"],"uses":[],"equation":["1.0"],"source":{"info":{"file":"","lineStart":0,"lineEnd":0,"colStart":0,"colEnd":0}}},
+{"eqIndex":2,"section":"initial","tag":"assign","defines":["der(x)"],"uses":["x"],"equation":["-StoreData_Trial1.storeData(x)"],"source":{"info":{"file":"C:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/SimpleStoring/StoreData_Trial1.mo","lineStart":15,"lineEnd":15,"colStart":2,"colEnd":24},"within":["StoreData_Trial1"]}},
+{"eqIndex":3,"section":"regular","tag":"assign","defines":["der(x)"],"uses":["x"],"equation":["-StoreData_Trial1.storeData(x)"],"source":{"info":{"file":"C:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/SimpleStoring/StoreData_Trial1.mo","lineStart":15,"lineEnd":15,"colStart":2,"colEnd":24},"within":["StoreData_Trial1"]}}
+],
+"functions":[
+"StoreData_Trial1.storeData"
+]
+}

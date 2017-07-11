@@ -1,0 +1,10 @@
+Program Version,EnergyPlus, Version 8.4.0-09f5359d8a, YMD=2016.08.15 16:14,IDD_Version 8.4.0
+   **  Fatal  ** IP: GetObjectItem: ExternalInterface:FunctionalMockupUnitImport:To:Schedule, Number of ObjectDef Alpha Args [5] > Size of AlphaArg array [3].
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=0
+   ..... Last severe error=
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 0 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  0.50sec

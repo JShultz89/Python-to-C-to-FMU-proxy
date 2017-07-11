@@ -1,0 +1,10 @@
+ 
+Compiling and linking the model (GCC). 
+ 
+dsmodel.c:9:24: fatal error: storeInput.c: No such file or directory
+ #include "storeInput.c"
+                        ^
+compilation terminated.
+ 
+Error generating dymosim.exe. 
+ 

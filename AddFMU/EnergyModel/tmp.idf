@@ -1,0 +1,28 @@
+ExternalInterface,
+  FunctionalMockupUnitImport;		!- Name of External Interface
+
+ExternalInterface:FunctionalMockupUnitImport,
+  CallAdd.fmu,		!- FMU Filename
+   ,		!- FMU Timeout in milli-seconds
+   ;		!- FMU LoggingOn Value
+
+ExternalInterface:FunctionalMockupUnitImport:From:Variable,
+   ,		!- EnergyPlus Key Value
+   ,		!- EnergyPlus Variable Name
+   CallAdd.fmu,		!- FMU Filename
+   ,		!- FMU Instance Name
+   FirstInput;		!- FMU Variable Name
+
+ExternalInterface:FunctionalMockupUnitImport:From:Variable,
+   ,		!- EnergyPlus Key Value
+   ,		!- EnergyPlus Variable Name
+   CallAdd.fmu,		!- FMU Filename
+   ,		!- FMU Instance Name
+   SecondInput;		!- FMU Variable Name
+
+ExternalInterface:FunctionalMockupUnitImport:To:,
+   ,		!- EnergyPlus Variable Name
+   CallAdd.fmu,		!- FMU Filename
+   ,		!- FMU Instance Name
+   z,		!- FMU Variable Name
+   ;		!- Initial Value

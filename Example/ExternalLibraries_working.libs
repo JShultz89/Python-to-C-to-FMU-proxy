@@ -1,0 +1,1 @@
+"-LC:/OpenModelica1.9.3/lib/" "-LC:/OpenModelica1.9.3/lib//omc" "-L%APPDATA%/.openmodelica/binaries/ExternalLibraries_working" "-LC:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/Example/mingw32" "-LC:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/Example/win32" "-LC:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/Example" -lExternalFunc2

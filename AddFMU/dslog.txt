@@ -1,0 +1,11 @@
+ 
+Compiling and linking the model (GCC). 
+ 
+dsmodel.c: In function 'CallDirect_CallAddFunc_M':
+dsmodel.c:45:15: error: 'CallAddFunc' undeclared (first use in this function)
+       z0_0 = (CallAddFunc)(x0_0, y0_0);
+               ^
+dsmodel.c:45:15: note: each undeclared identifier is reported only once for each function it appears in
+ 
+Error generating dymosim.exe. 
+ 

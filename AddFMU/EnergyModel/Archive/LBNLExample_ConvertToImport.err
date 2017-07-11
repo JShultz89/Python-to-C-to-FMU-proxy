@@ -1,0 +1,34 @@
+Program Version,EnergyPlus, Version 8.5.0-c87e61b44b, YMD=2016.08.12 12:55,IDD_Version 8.5.0
+   ** Warning ** Output:PreprocessorMessage="Conversion 7.2 => 8.0" has the following Warning condition:
+   **   ~~~   ** rvi file associated with this input is being processed. Review for accuracy.
+   ** Warning ** CheckEnvironmentSpecifications: SimulationControl specified doing design day simulations, but no design environments specified.
+   **   ~~~   ** ...No design environment results produced. For these results, add appropriate SizingPeriod:* objects for your simulation.
+   ** Warning ** Site:GroundTemperature:BuildingSurface: Some values fall outside the range of 15-25C.
+   **   ~~~   ** These values may be inappropriate.  Please consult the Input Output Reference for more details.
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=GOLDEN COLORADO
+   **   ~~~   ** ..Weather File Location=Denver Centennial  Golden   Nr CO USA TMY3 WMO#=724666
+   **   ~~~   ** ..due to location differences, Latitude difference=[6.00E-002] degrees, Longitude difference=[0.28] degrees.
+   **   ~~~   ** ..Time Zone difference=[0.0] hour(s), Elevation difference=[13.67] percent, [220.00] meters.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated
+   **   ~~~   ** because IDF did not contain these elements or misspelled variable name -- check .rdd file
+   ************* Key=*, VarName=OTHER EQUIPMENT TOTAL HEATING RATE, Frequency=Hourly
+   ************* Key=*, VarName=ZONE OTHER EQUIPMENT TOTAL HEATING RATE, Frequency=Hourly
+   ************* Key=FMU_OTHEQU_ZONEONE, VarName=SCHEDULE VALUE, Frequency=Hourly
+   ************* Key=FMU_OTHEQU_ZONEONE2, VarName=SCHEDULE VALUE, Frequency=Hourly
+   ************* There are 3 unused schedules in input.
+   ************* There are 3 unused week schedules in input.
+   ************* There are 3 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 5 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  9.95sec

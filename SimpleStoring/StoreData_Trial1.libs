@@ -1,0 +1,1 @@
+"-LC:/OpenModelica1.9.3/lib/" "-LC:/OpenModelica1.9.3/lib//omc" "-L%APPDATA%/.openmodelica/binaries/StoreData_Trial1" "-LC:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/SimpleStoring/mingw32" "-LC:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/SimpleStoring/win32" "-LC:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/SimpleStoring" -lstoreData

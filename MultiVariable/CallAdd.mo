@@ -1,0 +1,13 @@
+model CallAdd
+	Real z(start=0); 
+	function CAdd
+		input Real x(start=0);
+		input Real y(start=0);
+		output Real z(start=0);
+		external "C"  annotation(Library = "CAdd", LibraryDirectory = "modelica://CallAdd");
+	end CAdd;
+
+equation
+	z = CAdd(time,time);
+	annotation(uses(Modelica(version = "3.2.1")));
+end CallAdd;

@@ -1,0 +1,15 @@
+{"format":"Transformational debugger info","version":1,
+"info":{"name":"ExternalLibraries_working","description":""},
+"variables":{
+"y":{"comment":"","kind":"state","type":"Real","unit":"","displayUnit":"","source":{"info":{"file":"C:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/Example/ExternalLibraries_working.mo","lineStart":16,"lineEnd":16,"colStart":3,"colEnd":36},"within":["Real"],"typeLst":["ExternalLibraries_working","Real"]}},
+"der(y)":{"comment":"","kind":"derivative","type":"Real","unit":"","displayUnit":"","source":{"info":{"file":"C:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/Example/ExternalLibraries_working.mo","lineStart":16,"lineEnd":16,"colStart":3,"colEnd":36},"within":["Real"],"typeLst":["ExternalLibraries_working","Real"]}}
+},
+"equations":[{"eqIndex":0,"tag":"dummy"},
+{"eqIndex":1,"section":"initial","tag":"assign","defines":["y"],"uses":[],"equation":["2.0"],"source":{"info":{"file":"","lineStart":0,"lineEnd":0,"colStart":0,"colEnd":0}}},
+{"eqIndex":2,"section":"initial","tag":"assign","defines":["der(y)"],"uses":["y"],"equation":["-ExternalLibraries_working.ExternalFunc2(y)"],"source":{"info":{"file":"C:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/Example/ExternalLibraries_working.mo","lineStart":19,"lineEnd":19,"colStart":3,"colEnd":29},"within":["ExternalLibraries_working"]}},
+{"eqIndex":3,"section":"regular","tag":"assign","defines":["der(y)"],"uses":["y"],"equation":["-ExternalLibraries_working.ExternalFunc2(y)"],"source":{"info":{"file":"C:/Users/fishes3/Dropbox/FMU/Passing_Data_Testing/Example/ExternalLibraries_working.mo","lineStart":19,"lineEnd":19,"colStart":3,"colEnd":29},"within":["ExternalLibraries_working"]}}
+],
+"functions":[
+"ExternalLibraries_working.ExternalFunc2"
+]
+}

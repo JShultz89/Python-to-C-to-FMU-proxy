@@ -1,0 +1,24 @@
+Mon 08/15/2016 11:56:56.75 ReadVars 
+ ReadVarsESO
+ processing:eplusout.inp
+ input file:eplusout.eso
+ output file:eplusout.csv
+  number variables requested for output=           7
+ found/finding:
+     1 Site Outdoor Air Drybulb Temperature
+     1 ZONE ONE:Zone Mean Air Temperature
+     0 ZONE ONE:Electricity:Building
+     2 Other Equipment Total Heating Energy
+     1 Zone Other Equipment Total Heating Energy
+     1 Site Day Type Index
+     1 Site Daylight Saving Time Status
+ ReadVars Run Time=00hr 00min  1.20sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:test.mvi
+ input file:eplusout.mtr
+ output file:eplusmtr.csv
+ getting all vars from:eplusout.mtr
+  number variables requested for output=           3
+ ReadVars Run Time=00hr 00min  0.37sec
+ ReadVarsESO program completed successfully.

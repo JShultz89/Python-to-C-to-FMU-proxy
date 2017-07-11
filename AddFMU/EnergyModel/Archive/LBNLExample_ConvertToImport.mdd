@@ -1,0 +1,11 @@
+Program Version,EnergyPlus, Version 8.5.0-c87e61b44b, YMD=2016.08.12 12:55,IDD_Version 8.5.0
+Var Type (reported time step),Var Report Type,Variable Name [Units]
+Zone,Meter,EnergyTransfer:Facility [J]
+Zone,Meter,EnergyTransfer:Building [J]
+Zone,Meter,EnergyTransfer:Zone:ZONE ONE [J]
+Zone,Meter,Heating:EnergyTransfer [J]
+Zone,Meter,Heating:EnergyTransfer:Zone:ZONE ONE [J]
+Zone,Meter,Cooling:EnergyTransfer [J]
+Zone,Meter,Cooling:EnergyTransfer:Zone:ZONE ONE [J]
+Zone,Meter,Carbon Equivalent:Facility [kg]
+Zone,Meter,CarbonEquivalentEmissions:Carbon Equivalent [kg]
